@@ -3,4 +3,4 @@
 -- Add any additional autocmds here
 
 
--- vim.cmd [[colorscheme habamax]]
+vim.cmd [[colorscheme habamax]]
