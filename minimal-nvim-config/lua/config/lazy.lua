@@ -7,7 +7,7 @@ end
 vim.opt.rtp:prepend(vim.env.LAZY or lazypath)
 
 require("lazy").setup({
-    -- use lazy to install lazy, just an experiemnt
+    -- use lazy to install lazy, just an experiment firstly which is going awesome
     {
 	 "folke/lazy.nvim",
 	 lazy = false,
@@ -61,7 +61,6 @@ require("lazy").setup({
 			-- needs lua-language-server >= 3.6.0
 			pathStrict = true,
 		})
-		require("plugins.lsp.handlers").setup()
 	end,
 	dependencies = {
 		{ "folke/neodev.nvim" },
@@ -380,7 +379,7 @@ require("lazy").setup({
     {
 	'windwp/nvim-autopairs',
 	-- enabled = false,
-	dependecies = { "hrsh7th/nvim-cmp" },
+	dependencies = { "hrsh7th/nvim-cmp" },
 	config = function()
 		require('nvim-autopairs').setup({
 			check_ts = true,
