@@ -14,3 +14,4 @@ alias pf='fzf --preview='\''bat --color=always {}'\'' --bind shift-up:preview-pa
 alias plf='fzf --preview='\''less {}'\'' --bind shift-up:preview-page-up,shift-down:preview-page-down'
 alias python='python3'
 alias sad='cd ~ && cd $(fd -t d | fzf)'
+alias nf='neofetch'
