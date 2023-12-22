@@ -20,5 +20,6 @@ alias plf='fzf --preview='\''less {}'\'' --bind shift-up:preview-page-up,shift-d
 alias cls='clear'
 alias python='python3'
 alias nf='neofetch'
+alias rm='trash'
 # git aliases
 alias gba='git log --oneline --decorate --all --graph'
