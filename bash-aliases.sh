@@ -18,8 +18,8 @@ alias pf="fzf --preview='bat --color=always {}' --bind shift-up:preview-page-up,
 alias plf="fzf --preview='less {}' --bind shift-up:preview-page-up,shift-down:preview-page-down" # fzf and less both needs to be preinstalled
 # for convenience
 alias cls='clear'
-alias python='python3'
-alias nf='neofetch'
-alias rm='trash'
+alias python='python3' # python3 needs to be preinstalled
+alias nf='neofetch' # neofetch needs to be preinstalled
+alias rm='trash' # trash-cli needs to be preinstalled
 # git aliases
 alias gba='git log --oneline --decorate --all --graph' # git needs to be preinstalled
