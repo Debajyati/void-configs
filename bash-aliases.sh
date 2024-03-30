@@ -22,4 +22,4 @@ alias python='python3' # python3 needs to be preinstalled
 alias nf='neofetch' # neofetch needs to be preinstalled
 alias rm='trash' # trash-cli needs to be preinstalled
 # git aliases
-alias gba='git log --oneline --decorate --all --graph' # git needs to be preinstalled
+alias gla='git log --oneline --decorate --all --graph' # git needs to be preinstalled
