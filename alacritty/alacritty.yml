@@ -1,7 +1,5 @@
 window:
   opacity: 0.7
-import:
-  - ~/.config/alacritty/themes/themes/omni.yaml
 font:
   normal:
     family: GoMono Nerd Font
@@ -17,3 +15,32 @@ font:
   offset:
     x: 0
     y: 0
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#00ff29'
+  cursor:
+    text: '#000000'
+    cursor: '#f39d21'
+  vi_mode_cursor:
+    text: '#000000'
+    cursor: '#f39d21'
+
+  normal:
+    black: '#000000'
+    red: '#e84f4f'
+    green: '#b8d68c'
+    yellow: '#e1aa5d'
+    blue: '#7dc1cf'
+    magenta: '#9b64fb'
+    cyan: '#6d878d'
+    white: '#dddddd'
+  bright:
+    black: '#404040'
+    red: '#d23d3d'
+    green: '#a0cf5d'
+    yellow: '#f39d21'
+    blue: '#4e9fb1'
+    magenta: '#8542ff'
+    cyan: '#42717b'
+    white: '#000000'
